@@ -2,7 +2,7 @@
 clear
 
 echo "Pre-config script running"
-echo "Version 0.0.1"
+echo "Version 0.0.2"
 
 
 sudo apt -y update
