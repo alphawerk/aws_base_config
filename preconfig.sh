@@ -12,6 +12,5 @@ sudo apt install -y apache2-utils
 sudo docker volume create portainer_data
 sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
 
-echo "Authenticating to GitHub, please provide auth token (found in alphawerk/credentials)"
-read authtoken
-gh auth login --with-token $authtoken
+echo "Authenticating to GitHub, please provide auth token (found in alphawerk/credentials) and use the following command"
+echo "gh auth login --with-token <auth_token>"
