@@ -14,3 +14,7 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 
 echo "Authenticating to GitHub, please provide auth token (found in alphawerk/credentials) and use the following command"
 echo " echo "<token>" | gh auth login --with-token"
+
+echo "To clone a repo use"
+echo "gh clone repo <reponame>"
+echo "use username and personal access token for passwork"
