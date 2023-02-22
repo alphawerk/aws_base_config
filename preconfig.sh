@@ -2,11 +2,8 @@
 
 
 echo "Pre-config script running"
-echo "Version 0.0.3"
+echo "Version 0.0.4"
 
-
-sudo apt-get -y update
-sudo apt-get -y upgrade
 sudo apt-get -y install docker.io docker-compose
 
 sudo wget -O /usr/bin/fetch https://github.com/gruntwork-io/fetch/releases/download/v0.4.1/fetch_linux_amd64
