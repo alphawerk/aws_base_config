@@ -13,7 +13,7 @@ sudo docker volume create portainer_data
 sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
 
 echo "Authenticating to GitHub, please provide auth token (found in alphawerk/credentials) and use the following command"
-echo " echo "<token>" | gh auth login --with-token"
+echo "<token>" | gh auth login --with-token"
 echo ""
 echo "To clone a repo use"
 echo "gh clone repo <reponame>"
