@@ -9,5 +9,5 @@
 System will reboot
 
 
-`wget -O - https://raw.githubusercontent.com/alphawerk/misc/main/preconfig.sh | bash`
+`wget -O - https://raw.githubusercontent.com/alphawerk/aws_base_config/main/preconfig.sh | bash`
 
